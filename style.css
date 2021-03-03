@@ -1,0 +1,31 @@
+nav a {
+  text-decoration: none;
+  color: seagreen;
+  font-size: 20px;
+}
+nav a:hover {
+  color: greenyellow;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(45, 138, 45);
+  font-family: "DotGothic16", sans-serif;
+}
+
+p {
+  color: darkolivegreen;
+}
+
+footer p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: seagreen;
+}
+
+a:hover {
+  color: greenyellow;
+}
