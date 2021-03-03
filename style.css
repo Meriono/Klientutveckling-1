@@ -15,18 +15,22 @@ div {
   display: inline-block;
   background-color: #dad7cd;
   padding: 5px;
-  size: auto;
   margin: 10px;
 }
 
-#startpage-intro-pictures {
+.startpage-intro-pictures {
   display: flex;
   flex-wrap: wrap;
   align-self: center;
   justify-content: center;
   align-items: center;
 }
-
+.startpage-intro-pictures h3 {
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: #588157;
+}
 #projekt-bilder {
   display: flex;
   flex-wrap: wrap;
@@ -59,8 +63,8 @@ div {
   border-width: 5px;
 }
 
-#top-contact{
-    display: flex;
+#top-contact {
+  display: flex;
 }
 .github-link {
   font-weight: bold;
