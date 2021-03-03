@@ -12,16 +12,27 @@ nav a {
 }
 
 div {
+  display: inline-block;
   background-color: #dad7cd;
   padding: 5px;
   size: auto;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
 }
 
-h1 {
+#startpage-intro-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
   color: #3a5a40;
-  font-family: "DotGothic16", sans-serif;
+  font-size: 82px;
+  font-family: "Amatic SC", cursive;
+  margin: 3px;
+  font-variant: small-caps;
 }
 
 p {
@@ -30,6 +41,7 @@ p {
 
 footer p {
   color: black;
+  margin-left: 10px;
 }
 
 a {
@@ -48,8 +60,4 @@ a:hover {
 body {
   margin-left: 0px;
   margin-right: 0px;
-}
-
-footer p {
-  margin-left: 10px;
 }
