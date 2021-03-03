@@ -58,6 +58,10 @@ div {
   border-style: double;
   border-width: 5px;
 }
+
+#top-contact{
+    display: flex;
+}
 .github-link {
   font-weight: bold;
 }
