@@ -31,13 +31,13 @@ div {
   margin-bottom: 3px;
   color: #588157;
 }
-#projekt-bilder {
+.projekt-bilder {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#projekt-bilder h3 {
+.projekt-bilder h3 {
   color: #3a5a40;
   font-size: 32px;
   margin: 3px;
@@ -45,27 +45,37 @@ div {
   text-align: center;
 }
 
-#projekt-bilder IMG {
+.projekt-bilder IMG {
   margin: 10px auto 20px;
   display: block;
 }
 
-#top-portfolio {
+.top-portfolio {
   align-self: center;
   display: flex;
   background-color: #a3b18a;
   justify-content: center;
 }
 
-#top-portfolio div {
+.top-portfolio div {
   border-color: #588157;
   border-style: double;
   border-width: 5px;
 }
 
-#top-contact {
+.top-contact {
+  align-self: center;
   display: flex;
+  background-color: #a3b18a;
+  justify-content: center;
 }
+
+.top-contact div {
+  border-color: #588157;
+  border-style: double;
+  border-width: 5px;
+}
+
 .github-link {
   font-weight: bold;
 }
